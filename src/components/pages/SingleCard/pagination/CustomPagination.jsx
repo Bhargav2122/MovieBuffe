@@ -8,9 +8,10 @@ const CustomPagination = ({ setPage , totalPages = 10}) => {
        setPage(page);
        window.scroll(0,0)
    }
+   
 
   return (
-    <div style={{ position:'fixed', paddingBottom:'200px', width:'100%', display:'flex', justifyContent:'center'}}>
+    <div style={{ paddingBottom:'100px', width:'100%', display:'flex', justifyContent:'center'}}>
        
         <Pagination 
         count={totalPages} 
