@@ -11,7 +11,7 @@ const CustomPagination = ({ setPage , totalPages = 10}) => {
    
 
   return (
-    <div style={{bottom:'40px',position:"static",  marginBottom:'60px',backgroundColor:'#fff', width:'100%', display:'flex', justifyContent:'center',}}>
+    <div style={{bottom:'40px',position:"static",  marginBottom:'60px',backgroundColor:'#fff', width:'100%', display:'flex', justifyContent:'center',zIndex:100}}>
        
         <Pagination 
         count={totalPages} 
