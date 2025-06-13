@@ -27,7 +27,7 @@ export default function SimpleBottomNavigation() {
         showLabels
         value={value}
         onChange={handleChange}
-        sx = {{ backgroundColor: '#fff', }}
+        sx = {{ backgroundColor: '#000', }}
       >
         <BottomNavigationAction label="Trending"
           sx={{ 
